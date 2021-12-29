@@ -15,13 +15,17 @@ The results of the above, will allow me to provide SellBy the information they c
 
 # Resources
 * Data Sources: 
-* Software: Google Colaboration, Python, PySpark, Spark, 
+* Software: Google Colaboratory, Python, PySpark, Spark, Amazon Web Services, PostgreSQL
 
 # GitHub Application Link
 
-<a href="https://jillibus.github.io/Amazon_Vine_Analysis">"Amazon Vine Analysis"</a>
+<a href="https://jillibus.github.io/Amazon_Vine_Analysis">Amazon Vine Analysis</a>
 
 # Deliverable 1: Perform ETL on Amazon Product Reviews
+
+<img src="images/customers_table.png width=50% height=50%">                           <img src="images/products_table.png width=50% height=50%">
+
+<img src="images/review_id_table.png width=50% height=50%">                           <img src="images/vine_table.png width=50% height=50%">
 
 # Deliverable 2: Determine Bias of Vine Reviews
 
