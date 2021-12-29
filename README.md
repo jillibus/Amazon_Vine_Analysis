@@ -102,10 +102,14 @@ Below is queries, in pgAdmin showing the data was uploaded into the AWS Database
 The results show, that despite the lower number of reviewers from the Amazon Vine program, 60, compared to 14,477, the percentage of 5 star reviews were exactly the same as the non-Vine reviewers, at 56.7%.  This tells us that the paid reviewers did not give out more 5 star reviews because they were being paid either in free product or money.
 
 An additional measurment could be done by adding the _verified_purchase_ to the analysis. This gave us a bit of a percentage change for the non-Vine reviewers.
-Now we are looking at a 56.7% for Vine Reviewers vs a 57.4% for non-Vine Verified Purchase Reviewers. This shows us a slightly higher rating for the non-Vine Reviews but one that actualy spent their money and came back and reviewed a product.  That to me shows that the non-Paid Reviewers were more honest.
-Some questions remain in how valid are the 'non-verified users'?  Do we count them? Do we spend time technically improving determining who a reviewer is to ensure these are not bots? But can we automatically dismiss them? 
+Now we are looking at a 56.7% for Vine Reviewers vs a 57.4% for non-Vine Verified Purchase Reviewers. This is still a very close percentage, only 0.7% difference.   
 
-These are questions that compaies, like SellBy, need to calculate into their decision.
+* Could this just be because the number of reviews are so different?
+* How comfortable are we that the non-valid reviews are real people and not bots?
+* What percentage of the non-verified reviews can we comfortably count as valid?
+* Can a company dismiss them completely?
+
+These are questions that Sellby need to calculate into their decision.
 
 ```
 from pyspark.sql.functions import col,when,count,lit
